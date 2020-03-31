@@ -1,2 +1,0 @@
-# FinalReactApp
-Created with CodeSandbox

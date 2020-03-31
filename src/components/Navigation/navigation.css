@@ -1,0 +1,17 @@
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  padding: 1rem 1.25rem;
+  background-color: var(--primary-color);
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a.active {
+  background-color: var(--secondary-color);
+  color: black;
+}

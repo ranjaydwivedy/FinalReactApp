@@ -1,0 +1,8 @@
+.users-heading {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.users-heading input {
+  margin-left: 3rem;
+}

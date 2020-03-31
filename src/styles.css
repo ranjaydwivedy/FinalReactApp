@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #371769;
+  --secondary-color: #e9c5ee;
+}
+
+body {
+  margin: 0;
+  background-color: #ddd;
+  font-size: 1rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  margin: 0.5rem 0;
+  font-size: 1.5rem;
+}

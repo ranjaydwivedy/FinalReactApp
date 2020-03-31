@@ -1,0 +1,41 @@
+.user-details {
+  font-size: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.user-details h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.user-details .avatar {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.user-details .avatar img {
+  width: 8rem;
+  height: 8rem;
+  background-color: #efefef;
+  border-radius: 50%;
+  border: 0.0625rem solid #ccc;
+}
+
+.user-details .go-back {
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: 0;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 0.25rem;
+  transition: all 200ms ease-in-out;
+  margin-top: 1rem;
+}
+
+.user-details .go-back:hover {
+  background-color: black;
+}
